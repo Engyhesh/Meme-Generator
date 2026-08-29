@@ -22,7 +22,7 @@ An interactive and fun web application that generates funny memes based on user 
 ## 🚀 Live Demo
 
 You can try out the app live on GitHub Pages:
-`(https://engyhesh.github.io/Meme-Generator/)`
+**(https://engyhesh.github.io/Meme-Generator/)**
 
 ---
 
