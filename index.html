@@ -8,12 +8,13 @@
 </head>
 <body>
 
-    <div class="bg-black min-vh-100 py-3">
+    <main class="bg-black min-vh-100 py-3">
         <div class="text-center ">
             <h1 class="text-danger text-decoration-underline p-3">Enter A Number From 0 To 99</h1>
         </div>
         <div class="d-flex flex-column align-items-center gap-3">
-            <input type="text" name="" id="" class="bg-danger text-warning">
+            <label for="memeNumber">Enter a meme number:</label>
+            <input type="text" id="memeNumber" min="0" max="99" class="bg-danger text-warning">
             <button  class="btn btn-danger text-warning rounded">Show Meme</button>
         </div>
 
@@ -22,7 +23,7 @@
             <h1 class=" sec"></h1>
             <img src="" alt="" >
         </div>
-    </div>
+    </main>
  
 <script src="meme.js"></script>    
 </body>
