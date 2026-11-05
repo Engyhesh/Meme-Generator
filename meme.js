@@ -70,10 +70,11 @@ btn.addEventListener("click", () => {
             <h1 class="text-warning">${meme.name}</h1>
 
             <img
-                src="${meme.url}"
-                alt="${meme.name}"
-                class="w-25 h-25"
-                decoding="async"
+            src="${meme.url}"
+            alt="${meme.name}"
+            width="${meme.width}"
+            height="${meme.height}"
+            decoding="async"
             >
         `;
 
